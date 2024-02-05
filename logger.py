@@ -1,7 +1,7 @@
 from data_create import name_data, surname_data, phone_data, address_data
     
 
-def imput_data():
+def input_data():
     name = name_data()
     surname = surname_data()
     phone = phone_data()
@@ -39,4 +39,4 @@ def print_data():
         print(*data_second)
         
 #imput_data()
-print_data()
+#print_data()
