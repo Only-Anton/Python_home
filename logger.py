@@ -26,6 +26,7 @@ def print_data():
     print('Из первого файла: \n ')
     with open('data_first_variant.csv', 'r', encoding= 'utf-8') as f:
         data_first = f.readlines()
+        
         data_first_list = []
         j = 0
         for i in range(len(data_first)):
